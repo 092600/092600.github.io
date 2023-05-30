@@ -25088,7 +25088,7 @@ aa_(a){var s=0,r=A.R(t.ix),q,p
 var $async$aa_=A.S(function(b,c){if(b===1)return A.O(c,r)
 while(true)switch(s){case 0:p=A
 s=3
-return A.T(A.I6(null).uc(0,"http://192.168.0.21:8080/post/"+a,t.z),$async$aa_)
+return A.T(A.I6(null).uc(0,"https://192.168.0.21:8080/post/"+a,t.z),$async$aa_)
 case 3:q=p.arv(c.a)
 s=1
 break
@@ -25099,7 +25099,7 @@ var $async$aa2=A.S(function(a,b){if(a===1)return A.O(b,r)
 while(true)switch(s){case 0:p=A
 o=J
 s=3
-return A.T(A.I6(null).uc(0,"http://192.168.0.21:8080/posts",t.z),$async$aa2)
+return A.T(A.I6(null).uc(0,"https://192.168.0.21:8080/posts",t.z),$async$aa2)
 case 3:q=p.hX(o.apH(b.a,new A.aa3()),!0,t.ix)
 s=1
 break
@@ -25110,7 +25110,7 @@ var $async$aa4=A.S(function(a,b){if(a===1)return A.O(b,r)
 while(true)switch(s){case 0:p=A
 o=J
 s=3
-return A.T(A.I6(null).uc(0,"http://192.168.0.21:8080/posts/recent",t.z),$async$aa4)
+return A.T(A.I6(null).uc(0,"https://192.168.0.21:8080/posts/recent",t.z),$async$aa4)
 case 3:q=p.hX(o.apH(b.a,new A.aa5()),!0,t.ix)
 s=1
 break
@@ -25121,7 +25121,7 @@ var $async$aa0=A.S(function(a,b){if(a===1)return A.O(b,r)
 while(true)switch(s){case 0:p=A
 o=J
 s=3
-return A.T(A.I6(null).uc(0,"http://localhost:8080/posts/series",t.z),$async$aa0)
+return A.T(A.I6(null).uc(0,"https://localhost:8080/posts/series",t.z),$async$aa0)
 case 3:q=p.hX(o.apH(b.a,new A.aa1()),!0,t.xP)
 s=1
 break
@@ -25819,7 +25819,7 @@ var $async$a7A=A.S(function(c,d){if(c===1)return A.O(d,r)
 while(true)switch(s){case 0:q=t.N
 p=t.z
 s=2
-return A.T(A.I6(null).zo(0,"http://192.168.0.21:8080/login",null,A.aC(["email",a,"password",b],q,q),null,null,A.auo("POST",null),null,p),$async$a7A)
+return A.T(A.I6(null).zo(0,"https://192.168.0.21:8080/login",null,A.aC(["email",a,"password",b],q,q),null,null,A.auo("POST",null),null,p),$async$a7A)
 case 2:o=d
 n=J.bk(o.a,"refreshToken")
 m=J.bk(o.a,"accessToken")
