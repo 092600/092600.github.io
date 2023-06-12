@@ -27234,7 +27234,7 @@ R0(a,b){var s=0,r=A.V(t.EW),q,p,o,n,m,l
 var $async$R0=A.W(function(c,d){if(c===1)return A.S(d,r)
 while(true)switch(s){case 0:m=t.z
 s=3
-return A.Z(A.N3(null).a_T(0,"https://simz.p-e.kr//posts",A.aH(["size",b,"page",a],t.N,m),m),$async$R0)
+return A.Z(A.N3(null).a_T(0,"https://simz.p-e.kr/posts",A.aH(["size",b,"page",a],t.N,m),m),$async$R0)
 case 3:l=d
 m=J.bq(l.a,"meta")
 p=J.ae(m)
