@@ -27181,7 +27181,7 @@ ai_(a){var s=0,r=A.X(t.ix),q,p
 var $async$ai_=A.Y(function(b,c){if(b===1)return A.U(c,r)
 while(true)switch(s){case 0:p=A
 s=3
-return A.Z(A.MY(null).Lb(0,"http://localhost:8080/post/"+a,t.z),$async$ai_)
+return A.Z(A.MY(null).Lb(0,"https://simz.p-e.kr/post/"+a,t.z),$async$ai_)
 case 3:q=p.aJl(c.a)
 s=1
 break
@@ -27192,7 +27192,7 @@ var $async$ai0=A.Y(function(a,b){if(a===1)return A.U(b,r)
 while(true)switch(s){case 0:p=A
 o=J
 s=3
-return A.Z(A.MY(null).Lb(0,"http://localhost:8080/posts/tags",t.z),$async$ai0)
+return A.Z(A.MY(null).Lb(0,"https://simz.p-e.kr/posts/tags",t.z),$async$ai0)
 case 3:q=p.jT(o.aF3(b.a,new A.ai1()),!0,t.fo)
 s=1
 break
@@ -27202,7 +27202,7 @@ R_(a,b){var s=0,r=A.X(t.EW),q,p,o,n,m,l
 var $async$R_=A.Y(function(c,d){if(c===1)return A.U(d,r)
 while(true)switch(s){case 0:m=t.z
 s=3
-return A.Z(A.MY(null).a_v(0,"http://localhost:8080/posts",A.aH(["size",b,"page",a],t.N,m),m),$async$R_)
+return A.Z(A.MY(null).a_v(0,"https://simz.p-e.kr/posts",A.aH(["size",b,"page",a],t.N,m),m),$async$R_)
 case 3:l=d
 m=J.bq(l.a,"meta")
 p=J.ad(m)
@@ -29101,7 +29101,7 @@ var $async$aff=A.Y(function(c,d){if(c===1)return A.U(d,r)
 while(true)switch(s){case 0:o=t.N
 n=t.z
 s=2
-return A.Z(A.MY(null).Cf(0,"https://localhost:8080/login",null,A.aH(["email",a,"password",b],o,o),null,null,A.aFZ("POST",null),null,n),$async$aff)
+return A.Z(A.MY(null).Cf(0,"https://simz.p-e.kr/login",null,A.aH(["email",a,"password",b],o,o),null,null,A.aFZ("POST",null),null,n),$async$aff)
 case 2:m=d
 A.kA(m)
 q=J.bq(m.a,"refreshToken")
@@ -29114,7 +29114,7 @@ afe(){var s=0,r=A.X(t.y),q,p
 var $async$afe=A.Y(function(a,b){if(a===1)return A.U(b,r)
 while(true)switch(s){case 0:p=t.z
 s=3
-return A.Z(A.MY(null).a_u(0,"https://localhost:8080/token/validate-role",A.aHx(A.aH(["Authorization",window.localStorage.getItem("accessToken")],t.N,p)),p),$async$afe)
+return A.Z(A.MY(null).a_u(0,"https://simz.p-e.kr/token/validate-role",A.aHx(A.aH(["Authorization",window.localStorage.getItem("accessToken")],t.N,p)),p),$async$afe)
 case 3:q=b.a
 s=1
 break
